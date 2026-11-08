@@ -1,0 +1,20 @@
+.azp-amazon-product-image{margin:1.1em 0;max-width:100%;box-sizing:border-box}
+.azp-amazon-product-image a{display:inline-block;max-width:100%;text-decoration:none}
+.azp-amazon-product-image img{display:block;max-width:100%;height:auto;object-fit:contain;border:0}
+.azp-amazon-product-image.azp-image-size-small img{max-width:120px}
+.azp-amazon-product-image.azp-image-size-medium img{max-width:240px}
+.azp-amazon-product-image.azp-image-size-large img{max-width:400px}
+.azp-amazon-product-image.azp-image-size-full img{max-width:100%}
+.azp-amazon-product-image.azp-image-align-center{text-align:center}
+.azp-amazon-product-image.azp-image-align-left{float:left;margin:0 1.25em 1em 0;max-width:48%}
+.azp-amazon-product-image.azp-image-align-right{float:right;margin:0 0 1em 1.25em;max-width:48%;text-align:right}
+.azp-amazon-product-image figcaption{font-size:.82em;opacity:.85;margin:.35em 0 0;line-height:1.4}
+@media(max-width:600px){.azp-amazon-product-image.azp-image-align-left,.azp-amazon-product-image.azp-image-align-right{float:none;margin:1.1em 0;max-width:100%;text-align:left}}
+/* v1.4.0-beta.15: optional small Amazon button centred under the photo. */
+.azp-amazon-product-image .azp-image-stack{display:inline-flex;flex-direction:column;align-items:center;gap:8px;max-width:100%;vertical-align:top}
+.azp-amazon-product-image a.azp-amazon-image-button,.azp-amazon-product-image a.azp-amazon-image-button:visited{display:inline-block;padding:6px 16px;background:linear-gradient(to bottom,#f8dfa0,#f2c64f);border:1px solid #987b32;border-radius:4px;box-shadow:0 1px 2px rgba(72,53,20,.13);color:#171717!important;font-family:inherit;font-size:14px;font-weight:600;line-height:1.3;text-decoration:none!important;white-space:nowrap}
+.azp-amazon-product-image a.azp-amazon-image-button:hover,.azp-amazon-product-image a.azp-amazon-image-button:focus-visible{filter:brightness(1.05)}
+/* v1.4.0-beta.16: keep the image free of card-like backgrounds, borders and shadows. */
+/* The repeated class outranks common theme rules such as .entry-content figure. */
+figure.azp-amazon-product-image.azp-amazon-product-image{background:none;border:0;box-shadow:none;padding:0}
+.azp-amazon-product-image.azp-amazon-product-image a img{box-shadow:none;border-radius:0}
