@@ -1,0 +1,48 @@
+/* v1.3.20: scoped WordPress admin dashboard, no front-end assets. */
+.azp-dashboard{max-width:1500px!important;color:#203347}
+.azp-dashboard-heading{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;margin:24px 0}
+.azp-dashboard-heading h1{margin:4px 0 8px!important}
+.azp-dashboard-heading-actions{display:flex;flex-wrap:wrap;gap:8px}
+.azp-dashboard-eyebrow{font-weight:700;text-transform:uppercase;letter-spacing:.13em;font-size:11px;color:#52728b;margin:0}
+.azp-dashboard-subtitle{margin:0;color:#526577;font-size:14px}
+.azp-dashboard-metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.azp-dashboard-metric,.azp-dashboard-panel{background:#fff;border:1px solid #dbe5ee;border-radius:12px;padding:21px;box-shadow:0 4px 13px #14334d09}
+.azp-dashboard-metric{display:flex;flex-direction:column;min-width:0}
+.azp-dashboard-metric-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.azp-dashboard-metric h2{font-size:15px;font-weight:700;margin:0;line-height:1.3;color:#203e5a}
+.azp-dashboard-metric-number{font-size:32px;font-weight:800;line-height:1;color:#145d98;font-variant-numeric:tabular-nums}
+.azp-dashboard-metric>p{margin:14px 0 20px;font-size:13px;color:#607284}
+.azp-dashboard-bar{height:9px;background:#edf2f6;border-radius:20px;overflow:hidden;margin-top:auto}
+.azp-dashboard-bar>span{height:100%;background:#2479b0;display:block;border-radius:20px}
+.azp-dashboard-metric .azp-dashboard-tallies{font-size:12px;margin:9px 0 16px}
+.azp-dashboard-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:auto;padding-top:14px}
+.azp-dashboard-ai-job{font-size:13px;background:#f2f6fb;padding:12px;border-radius:8px;margin-top:auto}
+.azp-dashboard-columns{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(270px,1fr);gap:16px;margin:16px 0}
+.azp-dashboard-panel{min-width:0}
+.azp-dashboard-panel-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:18px}
+.azp-dashboard-panel-heading h2{font-size:19px;line-height:1.3;margin:0;color:#203e5a}
+.azp-dashboard-panel-heading span{font-size:12px;color:#64768a}
+.azp-dashboard-table-scroll{overflow-x:auto}
+.azp-dashboard-recent{border:0;min-width:540px}
+.azp-dashboard-recent th{font-weight:700}
+.azp-dashboard-recent td{vertical-align:middle}
+.azp-dashboard-recent td:first-child{max-width:240px;overflow-wrap:anywhere}
+.azp-dashboard-code{display:flex;gap:8px;align-items:center;white-space:nowrap}
+.azp-dashboard-code code{font-size:11px;white-space:nowrap}
+.azp-dashboard-health dl{margin:0 0 20px}
+.azp-dashboard-health dl>div{padding:11px 0;border-bottom:1px solid #e9edf2;display:flex;justify-content:space-between;gap:12px}
+.azp-dashboard-health dt{font-weight:600;color:#344f65}
+.azp-dashboard-health dd{margin:0;color:#526577;text-align:right}
+.azp-dashboard-health p.description{line-height:1.6;margin-bottom:16px}
+@media(max-width:900px){.azp-dashboard-columns{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:650px){.azp-dashboard-metrics{grid-template-columns:1fr}.azp-dashboard-metric{padding:18px}.azp-dashboard-panel{padding:16px}}
+@media(prefers-reduced-motion:no-preference){.azp-dashboard .button{transition:box-shadow .15s ease}}
+.azp-dashboard :focus-visible{outline:2px solid #2368a5;outline-offset:3px}
+/* 1.5.2: Product Link Audit alert (paid builds) */
+.azp-dashboard-audit{display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:#fff;border:1px solid #dbe5ee;border-left-width:5px;border-radius:12px;padding:13px 18px;margin:0 0 15px}
+.azp-dashboard-audit p{margin:0;flex:1;min-width:240px}
+.azp-dashboard-audit .dashicons{font-size:24px;width:24px;height:24px}
+.azp-dashboard-audit.is-alert{border-left-color:#d63638;background:#fff7f7}.azp-dashboard-audit.is-alert .dashicons{color:#d63638}
+.azp-dashboard-audit.is-ok{border-left-color:#2e8b4a}.azp-dashboard-audit.is-ok .dashicons{color:#2e8b4a}
+.azp-dashboard-audit.is-new{border-left-color:#2479b0}.azp-dashboard-audit.is-new .dashicons{color:#2479b0}
+.azp-dashboard-teaser .azp-dashboard-teaser-hide{color:#50575e;font-size:12px}

@@ -1,0 +1,12 @@
+/* Consistent, narrow shortcode-copy controls in WP admin list tables and meta boxes. */
+.azp-copy-control { display:inline-flex; align-items:center; gap:6px; flex-wrap:wrap; max-width:100%; }
+.azp-copy-editor { display:flex; }
+.azp-copy-editor .azp-copy-value { min-width:0; flex:1 1 180px; }
+.azp-copy-code { user-select:all; white-space:nowrap; overflow-wrap:anywhere; max-width:100%; font-size:12px; }
+.azp-copy-button { display:inline-flex!important; justify-content:center; align-items:center; padding:0 6px!important; min-width:30px; height:29px!important; flex:0 0 auto; }
+.azp-copy-button .dashicons { font-size:17px; width:17px; height:17px; line-height:17px; }
+.azp-copy-button[data-copy-result="success"] { border-color:#238636; color:#167031; }
+.azp-copy-status { font-size:12px; color:#167031; line-height:1.4; }
+.azp-copy-button[data-copy-result="error"] + .azp-copy-status { color:#8b2b00; }
+.azp-copy-control .azp-copy-status:empty { display:none; }
+@media(max-width:782px) { .azp-copy-list .azp-copy-code { white-space:normal; } }
