@@ -1,0 +1,79 @@
+.azp-layout-admin{padding:4px 0 8px}
+.azp-layout-admin > p label{display:inline-block;min-width:108px}
+.azp-layout-admin select{min-width:225px;max-width:100%}
+.azp-layout-preview{margin-top:16px;padding:14px;max-width:690px;background:#f8fafc;border:1px solid #dce3ec;border-radius:8px;box-sizing:border-box}
+.azp-layout-preview *{box-sizing:border-box}
+.azp-preview-title{font-weight:700;margin-bottom:12px;color:#243343}
+.azp-preview-title small{font-weight:400;color:#64748b;margin-left:5px}
+.azp-table-preview .azp-preview-product{display:grid;grid-template-columns:105px 1fr 145px;align-items:center;gap:15px;padding:14px;margin-bottom:9px;border:1px solid #dce4ec;background:white;border-radius:8px}
+.azp-preview-image{height:75px;background:#e5eaf0;color:#718096;display:grid;place-items:center;border-radius:5px}
+.azp-preview-copy{display:grid;gap:7px;color:#16293e}
+.azp-preview-copy strong{font-size:15px}
+.azp-preview-copy small{color:#65778a}
+.azp-preview-cta{display:block;text-align:center;padding:9px;background:#f6d677;border:1px solid #cda64c;border-radius:4px;white-space:nowrap;color:#191919}
+.azp-table-preview--compact .azp-preview-product{grid-template-columns:65px 1fr 120px;gap:10px;padding:7px;margin-bottom:5px;border-radius:5px}
+.azp-table-preview--compact .azp-preview-image{height:50px}
+.azp-table-preview--compact .azp-preview-cta{padding:6px}
+.azp-table-preview--minimal .azp-preview-product{grid-template-columns:55px 1fr 105px;gap:9px;padding:6px 4px;margin:0;border-width:0 0 1px;border-radius:0;background:transparent}
+.azp-table-preview--minimal .azp-preview-image{height:41px}
+.azp-table-preview--minimal .azp-preview-cta{padding:4px;background:transparent;border-color:#afbdcb}
+.azp-color-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:10px 0}
+.azp-color-field{display:flex;align-items:center;justify-content:space-between;gap:9px;padding:7px 9px;border:1px solid #e1e5eb;border-radius:4px;background:white}
+.azp-color-field input{width:46px;height:30px;padding:0;border:0;cursor:pointer}
+.azp-advanced-colors{padding:10px;border:1px solid #dbe2e9;border-radius:5px;background:#fbfcfe}
+.azp-advanced-colors summary{cursor:pointer;font-weight:600}
+.azp-layout-admin [hidden]{display:none!important}
+.azp-table-preview--custom .azp-preview-product{display:none}
+
+/* v1.3.15: Integrated Table Type selector at top of standard builder. */
+.azp-layout-editor-heading{margin:4px 0 8px!important;font-size:18px!important}
+#azp-standard-product-builder[hidden]{display:none!important}
+.azp-layout-admin{padding:10px 14px 16px;margin:0 0 16px;border:1px solid #cbd9e8;border-radius:10px;background:#f6faff}
+.azp-layout-admin select#azp-table-layout{min-width:265px;font-weight:600}
+
+.atp-editor-item .azp-product-custom-fields{background:#f1f7ff;border:1px solid #bcd1ea;border-radius:8px;margin-top:12px;padding:12px}
+.atp-editor-item .azp-product-custom-fields[hidden]{display:none!important}
+.atp-editor-item .azp-product-custom-fields strong{display:block;color:#173451;font-size:14px}
+
+
+/* v1.3.18 — per-product editorial title + same-styling, live published preview */
+.azp-display-title-label{display:block!important;font-size:12px!important;font-weight:700!important;color:#173451!important;margin:8px 0 5px!important;line-height:1.35!important}
+.azp-original-product-title{display:block;font-size:11px;color:#657487;overflow-wrap:anywhere;line-height:1.4;margin-top:6px;max-height:46px;overflow:hidden}
+
+/* v1.3.23 — quick removal in editor preview only; never on public pages. */
+.azp-layout-admin .azp-preview-remove{display:inline-flex;align-items:center;justify-content:center;min-height:28px;margin-top:9px;padding:2px 5px;border-radius:3px;color:#b32d2e;font-size:12px;font-weight:650;text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+.azp-layout-admin .azp-preview-remove:hover,.azp-layout-admin .azp-preview-remove:focus{color:#89191b;background:#fff3f3;text-decoration:underline}
+.azp-layout-admin .azp-preview-remove:focus-visible{outline:2px solid #2271b1;outline-offset:2px}
+.azp-quick-remove-panel{max-width:690px;box-sizing:border-box;background:#fff;border:1px solid #d4e1ef;border-radius:8px;padding:12px 14px;margin-top:12px}
+.azp-quick-remove-heading{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin-bottom:8px;color:#173451}
+.azp-quick-remove-items{max-height:330px;overflow-y:auto;overscroll-behavior:contain}
+.azp-quick-remove-item{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:9px 3px;border-top:1px solid #e5ebf2}
+.azp-quick-remove-name{display:flex;align-items:center;min-width:0;gap:10px}
+.azp-quick-remove-name img{width:48px;height:48px;object-fit:contain;flex-shrink:0}
+.azp-quick-remove-name span{min-width:0;display:grid;gap:3px}
+.azp-quick-remove-name strong{font-size:13px;line-height:1.4;overflow-wrap:anywhere}
+.azp-quick-remove-name small{font-size:11px;color:#64748b}
+.azp-quick-remove-item .azp-preview-remove{flex-shrink:0;margin:0;padding:4px 7px}
+.azp-preview-remove-status{margin:8px 0!important;color:#165b43;font-weight:650}
+@media(max-width:480px){.azp-quick-remove-item{gap:5px}.azp-quick-remove-name img{width:36px;height:36px}.azp-quick-remove-panel{padding:9px}}
+
+.azp-hidden-row-details{margin:12px 0;background:#fff;border:1px solid #bfd3e9;border-radius:6px;padding:9px 12px}
+.azp-hidden-row-details>summary{color:#163e5e;cursor:pointer;font-weight:650}
+.azp-hidden-row-item{display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid #e0eaf4;padding:7px 0}
+.azp-hidden-row-item:first-of-type{margin-top:8px}
+.azp-hidden-row-item span{overflow-wrap:anywhere}
+.azp-hidden-row-item button{flex-shrink:0}
+
+/* v1.3.25: Ordering controls on all admin-only table previews. */
+.azp-preview-row-actions{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin-top:8px;max-width:100%}
+.azp-layout-admin .azp-preview-row-actions .azp-preview-move{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;min-height:29px;padding:3px 8px;font-size:12px;white-space:nowrap;line-height:1.35;color:#1d4f78;border:1px solid #c5d3e3;background:#fff;border-radius:4px;cursor:pointer}
+.azp-layout-admin .azp-preview-row-actions .azp-preview-move:hover:not(:disabled){background:#e9f4ff;border-color:#3575b3}
+.azp-layout-admin .azp-preview-row-actions .azp-preview-move:focus-visible{outline:2px solid #2271b1;outline-offset:2px}
+.azp-layout-admin .azp-preview-row-actions .azp-preview-move:disabled{cursor:not-allowed;opacity:.45}
+.azp-layout-admin .azp-preview-row-actions .azp-preview-remove{margin:0!important;min-height:29px}
+.azp-quick-remove-item .azp-preview-row-actions{flex-shrink:0;margin-top:0}
+.azp-hidden-row-item .azp-preview-row-actions{flex-shrink:0}
+@media(max-width:560px){.azp-quick-remove-item{flex-wrap:wrap}.azp-quick-remove-item .azp-preview-row-actions{margin-left:auto}.azp-preview-row-actions{gap:3px}}
+
+/* v1.4.0-beta.20 — keep the editing grid's sideways scrollbar visible. Mac
+   hides scrollbars until you scroll, so wide grids looked cut off. */
